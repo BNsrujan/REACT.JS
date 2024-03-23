@@ -5,6 +5,11 @@ import Footer from "./Footer"
 import Student from "./Props"
 import UserGreeting from "./conditional-redering"
 import List from "./list"
+import Clickevent from "./clickevent"
+import UseState from "./ReactHook"
+import ColourPicker from "./Colourpicker"
+import Onchanger from "./onChange"
+import UpdateFunction from "./updateFunction"
 // import Button from "./Btn/Button.jsx"
 // HOW TO STYLE REACT COMPONENTS WITH CSS
 //
@@ -16,7 +21,7 @@ import List from "./list"
 function App() {
       return(
         <>
-         <Header/> 
+         {/* <Header/> 
          <Food/>
          <Card/>
          <Card/>
@@ -26,11 +31,18 @@ function App() {
         <Student name="Spongebob" age="30" isStudent={true}/>
         <Student name="srujan" age={19} isStudent={true}/>
         <Student name="ananth" age={10} isStudent={false}/>
-        <Student name="monkey"/>
+        <Student name="monkey"/> */}
         {/* <Button/> */}
-        <UserGreeting isLogin={true} username="srujan"/>
+        {/* <UserGreeting isLogin={false} username="srujan"/>
         <UserGreeting/>
         <List/>
+        <Clickevent/>
+        <UseState/>
+         */}
+        {/* <Onchanger/> */}
+
+        {/* <ColourPicker/>
+        <UpdateFunction/> */}
         </>
       );
 }
