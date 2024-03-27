@@ -5,10 +5,18 @@ import Footer from "./Footer"
 import Student from "./Props"
 import UserGreeting from "./conditional-redering"
 import List from "./list"
+
 import Updatearry from "./updatearryofobjectinstate"
 import ToDoList from "./ToDoList"
 import UseEffects from "./useEffext"
 import HightWideth from "./seeHightWidethusingUseEffect"
+
+import Clickevent from "./clickevent"
+import UseState from "./ReactHook"
+import ColourPicker from "./Colourpicker"
+import Onchanger from "./onChange"
+import UpdateFunction from "./updateFunction"
+
 // import Button from "./Btn/Button.jsx"
 // HOW TO STYLE REACT COMPONENTS WITH CSS
 //
@@ -32,6 +40,7 @@ function App() {
         <Student name="ananth" age={10} isStudent={false}/>
         <Student name="monkey"/> */}
         {/* <Button/> */}
+
         {/* <UserGreeting isLogin={true} username="srujan"/>
         <UserGreeting/>
         <List/> */}
@@ -39,6 +48,18 @@ function App() {
         {/* <ToDoList/> */}
         {/* <UseEffects/> */}
         <HightWideth/>
+
+        {/* <UserGreeting isLogin={false} username="srujan"/>
+        <UserGreeting/>
+        <List/>
+        <Clickevent/>
+        <UseState/>
+         */}
+        {/* <Onchanger/> */}
+
+        {/* <ColourPicker/>
+        <UpdateFunction/> */}
+
         </>
       );
 }
