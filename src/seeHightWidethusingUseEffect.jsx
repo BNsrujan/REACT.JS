@@ -4,6 +4,10 @@ function HightWideth(){
     const[Height,setHight]=useState(window.innerHeight);
     const[Width,setWiedth]=useState(window.innerWidth)
 
+    useEffect(()=>{
+        
+    });
+
     function handleRezie(){
         setWiedth(window.innerHeight)
         setHight(window.innerWidth)
