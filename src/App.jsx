@@ -17,7 +17,7 @@ import ColourPicker from "./Colourpicker"
 import Onchanger from "./onChange"
 import UpdateFunction from "./updateFunction"
 
-// import Button from "./Btn/Button.jsx"
+// import Button from "./Btn/Button"
 // HOW TO STYLE REACT COMPONENTS WITH CSS
 //
 // (not including external frameworks or preprocessors)
@@ -28,7 +28,7 @@ import UpdateFunction from "./updateFunction"
 function App() {
       return(
         <>
-         {/* <Header/> 
+         <Header/> 
          <Food/>
          <Card/>
          <Card/>
@@ -38,7 +38,7 @@ function App() {
         <Student name="Spongebob" age="30" isStudent={true}/>
         <Student name="srujan" age={19} isStudent={true}/>
         <Student name="ananth" age={10} isStudent={false}/>
-        <Student name="monkey"/> */}
+        <Student name="monkey"/>
         {/* <Button/> */}
 
         {/* <UserGreeting isLogin={true} username="srujan"/>

@@ -78,12 +78,6 @@ This project serves as a practical learning resource for:
 - Form handling
 - UI component development
 
-## Notes
 
-- Each component is designed to demonstrate specific React concepts
-- Components can be uncommented in `App.jsx` to see their functionality
-- The project includes examples of different styling approaches (External, Modules, Inline)
 
-## Contributing
 
-Feel free to explore the code and use it as a reference for learning React.js concepts.
